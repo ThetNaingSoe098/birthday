@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>Deface.php</title>
+  <style>
+    body{
+            background-color: black;
+            background-image: url(https://38.media.tumblr.com/tumblr_lsudn1Xqjy1qzunn4o1_400.gif);
+        }
+h1{
+    color:red;
+    font-family:'EB Garamond',serif;
+    
+}
+.s{
+    color:blue;
+}
+.m{
+    width:100px;
+    hight:70px;
+    border-radius:50px;
+    
+}
+
+textarea {
+  
+text-align:center;
+        caret-color: yellow;
+        color: blue;
+        background-color: black;
+        border: 4px ridge brown;
+Font-Family:  Cursive;
+
+}
+
+h2{
+        color: white;
+        animation:type 15s steps(28) infinite;
+        overflow:hidden;
+        white-space:nowrap;
+        height:10%;
+       
+     
+        font-size:70%;
+      }
+      @keyframes type{
+        0%{
+          width:0ch;
+        }
+        100%{
+          width:29ch;
+        }
+      }
+  </style>
+  <script>
+
+var b = 0;
+var c = "Felix_Web beginner";
+var a = setInterval(function () {
+    document.getElementById("s").value = document.getElementById("s").value + c[b];
+    b++;
+    if(b == c.length) {
+        clearInterval(a);
+    }
+}, 300);</script>
+</head>
+
+	    
+    <body>
+       <center>
+        <marquee>
+           <h1>Hacked by your website</h1>
+        </marquee>
+        </center>
+        
+        <center>
+            
+        <img src="http://sarbaz-faz.persiangig.com/Hack/hacked.gif "width="120" height="70">
+            </br>
+        
+<img class="m" src="img.jpg"/>
+<br />
+
+<h2>Hey Admin Your System Is Not Safe<br><br>
+<i style="color:red;font-family:Fantasy;">Please Repair Your Bugged System</i></h2>
+<h2 class="s">=–––-----––––––-–––––––---=</h2>
+
+
+
+<textarea id="s" cols="30" rows="3" autofocus="autofocus"></textarea>
+</center>
+    </body>
+</html>
